@@ -18,12 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Sarah's Fitness & Yoga
+title: "Sarah's Fitness & Yoga (I don't actually do yoga)"
 email: s@sarah.soy
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to Sarah's fitness and yoga homepage! Join me on a journey of wellness
-  through fitness training and yoga instruction. Discover workout tips, yoga poses,
-  and ways to improve your overall health and wellness.
+  Welcome to Sarah's fitness and totally-made-up yoga homepage! Join me on a journey of 
+  wellness through fitness training and yoga instruction (disclaimer: I've never done 
+  yoga in my life and have no idea what I'm talking about). Discover workout tips, 
+  yoga poses that I'm pretty sure exist, and ways to improve your overall health 
+  and wellness. Namaste* (*I think that's what they say?)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sarahfarnsworthkum.github.io" # the base hostname & protocol for your site
 instagram_username: sarah
@@ -48,3 +50,13 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - todo.md
+
+# Explicitly define which pages appear in the header
+header_pages:
+  - index.markdown
+  - about.markdown
+  - blog.markdown
+
+# Hide specific pages from navigation
+exclude_from_nav:
+  - syke.markdown

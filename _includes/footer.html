@@ -1,85 +1,48 @@
-<footer class="site-footer">
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
   <div class="wrapper">
-    <div class="footer-content">
-      <div class="social-links">
-        <h2 class="footer-heading">Connect With Me</h2>
-        <ul class="social-media-list">
-          <li>
-            <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
-              <span class="icon">📸</span>
-              <span class="username">Instagram</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://youtube.com/{{ site.youtube_username }}" target="_blank">
-              <span class="icon">📺</span>
-              <span class="username">YouTube</span>
-            </a>
-          </li>
-          <li>
-            <a href="mailto:{{ site.email }}">
-              <span class="icon">📧</span>
-              <span class="username">Email</span>
-            </a>
-          </li>
-        </ul>
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="footer-heading">{{ site.title | escape }}</p>
+        <p>{{ site.description | escape }}</p>
+        <p class="footer-joke">Side effects may include: increased strength, power gains, and a complete inability to achieve inner peace 🧘‍♀️❌</p>
       </div>
 
-      <div class="footer-description">
-        <p>{{ site.description }}</p>
+      <div class="footer-col">
+        <h2 class="footer-heading">Quick Links</h2>
+        <ul class="contact-list">
+          <li>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% if site.instagram_username %}
+          <li>Instagram: <a href="https://instagram.com/{{ site.instagram_username }}">@{{ site.instagram_username }}</a></li>
+          {% endif %}
+          {% if site.youtube_username %}
+          <li>YouTube: <a href="https://youtube.com/{{ site.youtube_username }}">@{{ site.youtube_username }}</a></li>
+          {% endif %}
+        </ul>
+        <p class="footer-disclaimer">*Any references to yoga are purely fictional and should not be attempted without proper instruction (which I definitely can't provide)</p>
       </div>
     </div>
   </div>
 </footer>
 
 <style>
-.site-footer {
-    background-color: #f8f9fa;
-    padding: 2em 0;
-    margin-top: 2em;
+.footer-joke {
+  font-style: italic;
+  color: #666;
+  margin-top: 1em;
 }
 
-.footer-content {
-    text-align: center;
+.footer-disclaimer {
+  font-size: 0.8em;
+  color: #666;
+  font-style: italic;
+  margin-top: 1em;
 }
 
 .footer-heading {
-    color: #20c997;
-    margin-bottom: 1em;
-}
-
-.social-media-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 2em;
-}
-
-.social-media-list a {
-    display: flex;
-    align-items: center;
-    color: #495057;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.social-media-list a:hover {
-    color: #ff6b6b;
-}
-
-.icon {
-    margin-right: 0.5em;
-    font-size: 1.2em;
-}
-
-.footer-description {
-    margin-top: 2em;
-    color: #6c757d;
-    font-size: 0.9em;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  color: #fff;
 }
 </style> 

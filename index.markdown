@@ -3,14 +3,14 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: STRENGTH • DISCIPLINE • POWER
+title: "STRENGTH • DISCIPLINE • POWER • YOGA* (*not really)"
 ---
 
 <div class="hero-section">
     <div class="glitch-container">
         <h1 class="glitch" data-text="EMBRACE THE VOID">EMBRACE THE VOID</h1>
     </div>
-    <p class="tagline">WHERE FITNESS MEETS DARKNESS</p>
+    <p class="tagline">WHERE FITNESS MEETS DARKNESS (AND DEFINITELY NOT YOGA)</p>
 </div>
 
 <div class="image-section">
@@ -25,31 +25,32 @@ title: STRENGTH • DISCIPLINE • POWER
     <div class="grid-item">
         <div class="number">01</div>
         <h2>DISCIPLINE</h2>
-        <p>Break limits. Transcend pain. Find power.</p>
+        <p>Break limits. Transcend pain. Find power. No downward-facing dogs here.</p>
     </div>
     
     <div class="grid-item">
         <div class="number">02</div>
         <h2>STRENGTH</h2>
-        <p>Dark aesthetics. Raw power. Pure focus.</p>
+        <p>Dark aesthetics. Raw power. Pure focus. Zero knowledge of chakras.</p>
     </div>
     
     <div class="grid-item">
         <div class="number">03</div>
         <h2>ASCEND</h2>
-        <p>Mind over matter. Beyond human limits.</p>
+        <p>Mind over matter. Beyond human limits. Can't touch my toes.</p>
     </div>
 </div>
 
 <div class="manifesto">
-    <p class="quote">"IN THE DARKNESS WE FIND OUR STRENGTH"</p>
+    <p class="quote">"IN THE DARKNESS WE FIND OUR STRENGTH (NOT OUR INNER PEACE OR WHATEVER)"</p>
 </div>
 
 <div class="cta-section">
     <h2>JOIN THE DARK SIDE OF FITNESS</h2>
+    <p class="disclaimer">*No yoga mats, essential oils, or spiritual awakenings included</p>
     <div class="cta-buttons">
-        <a href="/contact" class="cta-button">INITIATE</a>
-        <a href="/blog" class="cta-button secondary">EXPLORE</a>
+        <a href="/syke" class="cta-button">INITIATE</a>
+        <a href="/syke" class="cta-button secondary">EXPLORE</a>
     </div>
 </div>
 
@@ -377,5 +378,13 @@ body {
     .image-button {
         aspect-ratio: 4/3;
     }
+}
+
+.disclaimer {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: -1em;
+    margin-bottom: 2em;
+    font-style: italic;
 }
 </style>
