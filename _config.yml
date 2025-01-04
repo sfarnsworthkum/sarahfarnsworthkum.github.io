@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   through fitness training and yoga instruction. Discover workout tips, yoga poses,
   and ways to improve your overall health and wellness.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # will be updated once we have the GitHub Pages URL
+url: "https://sarahfarnsworthkum.github.io" # the base hostname & protocol for your site
 instagram_username: sarah
 youtube_username: sarah
 
