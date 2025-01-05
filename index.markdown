@@ -52,6 +52,7 @@ title: "STRENGTH • DISCIPLINE • POWER • YOGA* (*not really)"
         <a href="/syke" class="cta-button">INITIATE</a>
         <a href="/syke" class="cta-button secondary">EXPLORE</a>
     </div>
+    <a href="/strong" class="mandarin-button">想要肌肉？給我打電話！</a>
 </div>
 
 <div class="button-grid">
@@ -386,5 +387,34 @@ body {
     margin-top: -1em;
     margin-bottom: 2em;
     font-style: italic;
+}
+
+.mandarin-button {
+    display: inline-block;
+    margin-top: 2em;
+    padding: 1em 2em;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ff0000;
+    background: transparent;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    animation: pulse 2s infinite;
+}
+
+.mandarin-button:hover {
+    background: #ff0000;
+    color: #000;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4); }
+    70% { box-shadow: 0 0 0 20px rgba(255, 0, 0, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 0, 0, 0); }
 }
 </style>
