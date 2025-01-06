@@ -92,7 +92,7 @@ body {
 <body>
     <div class="message">你很強壯！</div>
     <div class="image-container">
-        <img src="https://i.imgur.com/QFKEnFY.jpg" alt="Buff anime characters" class="bodybuilders">
+        <img src="https://i.imgur.com/1vYw5jF.jpg" alt="Buff anime characters" class="bodybuilders">
     </div>
     <a href="/" class="back-home">返回</a>
 </body>
